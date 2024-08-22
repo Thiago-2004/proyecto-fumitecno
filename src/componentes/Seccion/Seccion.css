@@ -1,0 +1,84 @@
+.Carousel img{
+    height: 70vh;
+    margin-top: 20px;
+} 
+
+
+
+.linea{
+    border: none;
+    height: 2px;
+    background-color: #00a013; 
+    margin: 20px 0;
+}
+
+
+
+.elegirnos{
+color:rgb(255, 255, 255);
+padding: 10px;
+border-radius: 5px;           
+background-image: linear-gradient(to bottom right, rgb(0, 184, 0), rgb(32, 146, 47));
+}
+
+.certificados{
+background-color:rgb(65, 134, 65);
+padding: 20px;
+color: white;
+border-radius: 5px;
+}
+
+.col-6 a{
+color: #00a013;
+}
+
+
+.personal{
+color:rgb(255, 255, 255);
+padding: 10px;
+border-radius: 5px;           
+background-image: linear-gradient(to bottom right, rgb(0, 184, 0), rgb(32, 146, 47));
+}
+
+
+.lista p{
+text-align: left;
+padding-left: 20px;
+margin-top: 23px;
+}
+
+.lista img{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+float: right;
+width: 110px;
+height: 200px;
+}
+
+
+
+.texto{
+padding: 5px;
+background-color: rgb(211 211 211 / 29%);
+font-size: 20px;
+border-radius: 10px;
+}
+
+.zonas{
+color: #00a013;
+}
+
+.zonas b{
+color: black;
+}
+
+.col h3{
+color: #000000;
+
+}
+
+.sec .d-block{
+    height: 60vh;
+}
