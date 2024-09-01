@@ -15,7 +15,7 @@ function App() {
         <NavbarCustom />
         <main>
           <Routes>
-            <Route path="/" element={<Navigate to="/Fumitecno" />} />
+            <Route path="/Fumitecno" element={<Navigate to="/Fumitecno" />} />
             <Route path='/Fumitecno' element={<Seccion />} />
             <Route path='/Servicios' element={<Servicios/>} />
             <Route path='/Nosotros' element={<Nosotros/>} />
