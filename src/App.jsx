@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import './App.css';
 import NavbarCustom from './componentes/narbar/narbar';
@@ -15,7 +15,7 @@ function App() {
         <NavbarCustom />
         <main>
           <Routes>
-            <Route path="/Fumitecno" element={<Navigate to="/Fumitecno" />} />
+            <Route path="/" element={<Navigate to="/Fumitecno" />} />
             <Route path='/Fumitecno' element={<Seccion />} />
             <Route path='/Servicios' element={<Servicios/>} />
             <Route path='/Nosotros' element={<Nosotros/>} />
